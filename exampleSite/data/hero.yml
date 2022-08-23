@@ -1,9 +1,11 @@
 ---
 enable: true
-title: Turn your business to next level
-caption: Networking
-description: Enjoy team diversity and increase their networks among others people in various fields by providing an exceptional facilities and coworking.
+title: Next Level Action
+caption: VR Gaming
+description: Coming in 2022
 buttonName: Available on
-button1text: Apple Store
-button2text: Google Play
-image: images/hero/hero-image.svg
+button1text: Meta Quest
+image: images/hero/stargun-fleet.png
+heroBgImages:
+  - url: images/hero/logo-bg.svg
+  - url: image/hero/nav-bg.svg
