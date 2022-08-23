@@ -1,8 +1,9 @@
 # MAIN base
-baseURL = "https://apsho-hugo.netlify.app/"
+baseURL = "https://apsho-hugo-space.netlify.app/"
 languageCode = "en-us"
-title = "Apsho | App landing template"
-theme = "apsho"
+title = "Apsho Space | App landing template"
+themesDir="../../"
+theme = ["hugo-apsho-space"]
 
 # Navigation Bar
 [[menu.main]]
@@ -14,14 +15,18 @@ theme = "apsho"
     url = "#feature"
     weight = 2
 [[menu.main]]
-    name = "Services"
-    url = "#faq"
+    name = "PRESS"
+    url = "#PRESS"
     weight = 3
 [[menu.main]]
-    name = "Blog"
+    name = "BLOG"
     url = "#blog"
     weight = 4
-
+[[menu.main]]
+    name = "FAQ"
+    url = "#faq"
+    weight = 3
+    
 # Footer Sitemap
 [[menu.sitemap]]
     name = "Home"

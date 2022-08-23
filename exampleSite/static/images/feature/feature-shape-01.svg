@@ -1,6 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="608.259" height="601.201" viewBox="0 0 608.259 601.201">
-  <g id="Group_1170" data-name="Group 1170" transform="translate(-212.86 -1759)">
-    <path id="Path_1286" data-name="Path 1286" d="M396.754,147.837c1.146,25.854,17.593,39.033,31.855,60.629,35.966,54.462,7.193,130.5-41.1,137.7-49.166,7.323-20.77,79.236-101.806,89.985C168.22,451.73,98.346,379.807,80.195,299.721c-12.513-55.2-3.485-66.144-40.911-94.906C-41.264,142.912,16.028,16.888,86.107,3.564c15.849-3,42.139-10.306,127.565,12.118,56.391,14.8,108.068-12.734,150.2,24.259S395.6,121.9,396.754,147.837Z" transform="translate(212.86 2174.2) rotate(-69)" fill="#fff7d8"/>
-    <path id="Path_1305" data-name="Path 1305" d="M396.754,147.837c1.146,25.854,17.593,39.033,31.855,60.629,35.966,54.462,7.193,130.5-41.1,137.7-49.166,7.323-20.77,79.236-101.806,89.985C168.22,451.73,98.346,379.807,80.195,299.721c-12.513-55.2-3.485-66.144-40.911-94.906C-41.264,142.912,16.028,16.888,86.107,3.564c15.849-3,42.139-10.306,127.565,12.118,56.391,14.8,108.068-12.734,150.2,24.259S395.6,121.9,396.754,147.837Z" transform="translate(251.51 2202.064) rotate(-69)" fill="none" stroke="#000" stroke-width="1.5"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="608.259"
+   height="601.201"
+   viewBox="0 0 608.259 601.201"
+   version="1.1"
+   id="svg4768"
+   sodipodi:docname="feature-shape-01.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4774">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4772" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     id="namedview4770"
+     showgrid="false"
+     inkscape:zoom="0.39254759"
+     inkscape:cx="-94.548288"
+     inkscape:cy="198.70202"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4768" />
+  <rect
+     style="fill:#ff0000;fill-opacity:1;stroke:#3f87ff;stroke-width:0.15742736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers"
+     id="rect7068"
+     width="138.14043"
+     height="53.972069"
+     x="389.42188"
+     y="81.281105" />
+  <rect
+     y="501.6123"
+     x="386.87442"
+     height="53.972069"
+     width="138.14043"
+     id="rect9572"
+     style="fill:#ff0000;fill-opacity:1;stroke:#3f87ff;stroke-width:0.15742736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers" />
+  <rect
+     y="-527.56232"
+     x="81.281105"
+     height="53.972069"
+     width="138.14043"
+     id="rect9578"
+     style="fill:#ff0000;fill-opacity:1;stroke:#3f87ff;stroke-width:0.15742736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers"
+     transform="rotate(90)" />
+  <rect
+     y="81.281105"
+     x="389.42188"
+     height="53.972069"
+     width="138.14043"
+     id="rect9580"
+     style="fill:#ff0000;fill-opacity:1;stroke:#3f87ff;stroke-width:0.15742736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers" />
+  <rect
+     style="fill:#ff0000;fill-opacity:1;stroke:#3f87ff;stroke-width:0.15742736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers"
+     id="rect9582"
+     width="138.14043"
+     height="53.972069"
+     x="81.281105"
+     y="-527.56232"
+     transform="rotate(90)" />
 </svg>

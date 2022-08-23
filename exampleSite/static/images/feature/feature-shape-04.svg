@@ -1,21 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403.74" height="403.74" viewBox="0 0 403.74 403.74">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="403.74" height="403.74" fill="none"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="403.74"
+   height="403.74"
+   viewBox="0 0 403.74 403.74"
+   version="1.1"
+   id="svg4831"
+   sodipodi:docname="feature-shape-04.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4835">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="786"
+     inkscape:window-height="480"
+     id="namedview4833"
+     showgrid="false"
+     inkscape:zoom="0.58453462"
+     inkscape:cx="201.87"
+     inkscape:cy="201.87"
+     inkscape:window-x="1054"
+     inkscape:window-y="145"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4831" />
+  <defs
+     id="defs4823">
+    <clipPath
+       id="clip-path">
+      <rect
+         width="403.74"
+         height="403.74"
+         fill="none"
+         id="rect4809" />
     </clipPath>
-    <filter id="Rectangle_2180" x="19.016" y="19.015" width="365.708" height="365.708" filterUnits="userSpaceOnUse">
-      <feOffset dy="20" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="22.5" result="blur"/>
-      <feFlood flood-opacity="0.102"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
+    <filter
+       id="Rectangle_2180"
+       x="19.016"
+       y="19.015"
+       width="365.708"
+       height="365.708"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="20"
+         input="SourceAlpha"
+         id="feOffset4812" />
+      <feGaussianBlur
+         stdDeviation="22.5"
+         result="blur"
+         id="feGaussianBlur4814" />
+      <feFlood
+         flood-opacity="0.102"
+         id="feFlood4816" />
+      <feComposite
+         operator="in"
+         in2="blur"
+         id="feComposite4818"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite4820" />
     </filter>
   </defs>
-  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
-    <g transform="translate(-923.13 -2793.13)">
-      <g transform="matrix(1, 0, 0, 1, 923.13, 2793.13)" filter="url(#Rectangle_2180)">
-        <rect id="Rectangle_2180-2" data-name="Rectangle 2180" width="180" height="180" rx="20" transform="matrix(0.34, -0.94, 0.94, 0.34, 86.52, 235.66)" fill="#ffd100"/>
-      </g>
-    </g>
-  </g>
+  <path
+     sodipodi:type="star"
+     style="fill:#ffccaa;fill-opacity:1;stroke:#3f87ff;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers"
+     id="path7072"
+     sodipodi:sides="5"
+     sodipodi:cx="121.46414"
+     sodipodi:cy="229.2422"
+     sodipodi:r1="85.538132"
+     sodipodi:r2="42.769066"
+     sodipodi:arg1="0.64350111"
+     sodipodi:arg2="1.2718196"
+     inkscape:flatsided="true"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 189.89465,280.56508 93.799372,310.18312 35.935869,227.94356 96.269532,147.49868 191.42129,180.02057 Z"
+     inkscape:transform-center-x="7.7855631"
+     inkscape:transform-center-y="-0.40130168" />
+  <path
+     sodipodi:type="star"
+     style="fill:#ff9955;fill-opacity:1;stroke:#3f87ff;stroke-width:0.756;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86387425;paint-order:stroke fill markers"
+     id="path7076"
+     sodipodi:sides="5"
+     sodipodi:cx="217.26686"
+     sodipodi:cy="227.53143"
+     sodipodi:r1="134.67299"
+     sodipodi:r2="108.95274"
+     sodipodi:arg1="0.44660381"
+     sodipodi:arg2="1.0749223"
+     inkscape:flatsided="true"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 338.73101,285.69736 199.48226,361.02496 84.811228,251.86904 153.18938,109.07937 310.12043,129.98643 Z"
+     inkscape:transform-center-x="-7.5207368"
+     inkscape:transform-center-y="5.4957406"
+     transform="rotate(-90,188.18389,210.4238)" />
 </svg>
