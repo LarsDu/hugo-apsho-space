@@ -154,7 +154,7 @@
     }
 
     .nav-link {
-      color: $secondary-bg-color!important;
+      color: $secondary-bg-color !important;
 
       &::before {
         background: darken($color: $secondary-bg-color, $amount: 10) !important;
