@@ -154,10 +154,10 @@
     }
 
     .nav-link {
-      color: $text-color-dark !important;
+      color: $secondary-bg-color!important;
 
       &::before {
-        background: darken($color: $white, $amount: 10) !important;
+        background: darken($color: $secondary-bg-color, $amount: 10) !important;
       }
     }
   }
