@@ -5,6 +5,11 @@ title = "Apsho Space | App landing template"
 themesDir="../../"
 theme = ["hugo-apsho-space"]
 
+# Main button
+[params.main_button]
+link = "contact"
+text = "Contact Us"
+
 # Navigation Bar
 [[menu.main]]
     name = "Home"
@@ -26,7 +31,7 @@ theme = ["hugo-apsho-space"]
     name = "FAQ"
     url = "#faq"
     weight = 3
-    
+
 # Footer Sitemap
 [[menu.sitemap]]
     name = "Home"
