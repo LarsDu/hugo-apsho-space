@@ -68,11 +68,10 @@ github = "https://github.com/StaticMania"
 mailchimp_form_action="#"
 mailchimp_form_name="#"
 
-
 # Header
 logo = "images/logo.png"
 formspreeURL = "https://formspree.io/mknyovwz"
-googleAnalytics = "UA-175025671-2"
+googleAnalytics = ""
 
 # Footer
 footerTitle = "Get the latest app updates"

@@ -9,15 +9,14 @@ image: images/hero/stargun-fleet.png
 heroBgImages:
   - url: images/hero/logo-bg.svg
   - url: images/hero/nav-bg.svg
-
 storeButtons:
-  - button1:
-    url: "images/hero/meta.svg"
-    caption: "Available on"
-    text: "Meta Quest"
-    link: "https://www.meta.com"
-  - button2:
-    url: "images/hero/appol.svg"
-    caption: "Available on"
-    text: "Apply Store"
-    link: "https://www.apple.com"
+- button1:
+  image: "images/hero/meta.svg"
+  caption: "Coming 2023 to"
+  text: "Meta Quest"
+  link: "#footer-subscribe-form"
+- button2:
+  image: "images/hero/appol.svg"
+  caption: "Coming 2023 to"
+  text: "Apple Play Quest"
+  link: "#footer-subscribe-form"
