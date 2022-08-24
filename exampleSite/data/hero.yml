@@ -8,4 +8,16 @@ button1text: Meta Quest
 image: images/hero/stargun-fleet.png
 heroBgImages:
   - url: images/hero/logo-bg.svg
-  - url: image/hero/nav-bg.svg
+  - url: images/hero/nav-bg.svg
+
+storeButtons:
+  - button1:
+    url: "images/hero/meta.svg"
+    caption: "Available on"
+    text: "Meta Quest"
+    link: "https://www.meta.com"
+  - button2:
+    url: "images/hero/appol.svg"
+    caption: "Available on"
+    text: "Apply Store"
+    link: "https://www.apple.com"
