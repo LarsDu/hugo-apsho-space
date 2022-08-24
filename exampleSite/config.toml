@@ -64,6 +64,11 @@ github = "https://github.com/StaticMania"
 
 [params]
 
+# Mailchimp
+mailchimp_form_action="#"
+mailchimp_form_name="#"
+
+
 # Header
 logo = "images/logo.png"
 formspreeURL = "https://formspree.io/mknyovwz"
