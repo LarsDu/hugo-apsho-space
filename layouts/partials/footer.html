@@ -17,45 +17,47 @@
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>
           </div>
-        <div class="from-group">
-          <div class="input-group">
-            <!--<input type="text" class="form-control" placeholder="Enter Your E-mail" id="inputEmail4" required>-->
-            <!--This line makes it e-mail only -->
-            <input type="email" value="" name="EMAIL" class="form-control" placeholder="Enter Your E-mail" id="mce-EMAIL" required>
-            <div class="subscribe">
-              <button class="btn btn-subscribe" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" >
-                <span class="btn-area">
-                  Subscribe
-                </span>
-                <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
-                  viewBox="0 0 16.317 15.323">
-                  <g data-name="Group 1167">
-                    <g data-name="Group 1166">
-                      <path data-name="Path 1349"
-                        d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
-                        fill="#fff" />
+          <div class="from-group">
+            <div class="input-group">
+              <!--<input type="text" class="form-control" placeholder="Enter Your E-mail" id="inputEmail4" required>-->
+              <!--This line makes it e-mail only -->
+              <input type="email" value="" name="EMAIL" class="form-control" placeholder="Enter Your E-mail"
+                id="mce-EMAIL" required>
+              <div class="subscribe">
+                <button class="btn btn-subscribe" type="submit" value="Subscribe" name="subscribe"
+                  id="mc-embedded-subscribe">
+                  <span class="btn-area">
+                    Subscribe
+                  </span>
+                  <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
+                    viewBox="0 0 16.317 15.323">
+                    <g data-name="Group 1167">
+                      <g data-name="Group 1166">
+                        <path data-name="Path 1349"
+                          d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
+                          fill="#fff" />
+                      </g>
                     </g>
-                  </g>
-                </svg>
-                <svg class="icon-center" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
-                  viewBox="0 0 16.317 15.323">
-                  <g data-name="Group 1167">
-                    <g data-name="Group 1166">
-                      <path data-name="Path 1349"
-                        d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
-                        fill="#fff" />
+                  </svg>
+                  <svg class="icon-center" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
+                    viewBox="0 0 16.317 15.323">
+                    <g data-name="Group 1167">
+                      <g data-name="Group 1166">
+                        <path data-name="Path 1349"
+                          d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
+                          fill="#fff" />
+                      </g>
                     </g>
-                  </g>
-                </svg>
-              </button>
-              
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
-              </div>
-            </div>
+                  </svg>
+                </button>
 
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
       </form>
       <!-- END FORM1 -->
       <!-- FORM2 Begin Mailchimp Signup Form 
@@ -100,23 +102,29 @@
           {{ replace .Site.Params.copyright2 "{year}" now.Year }}
         </p>
         <ul class="footer-description-social">
+          {{ if  and (isset .Site.Params.social "facebook") (ne .Site.Params.social.facebook "") }}
           <li>
             <a href="{{ .Site.Params.social.facebook }}"><i class="ti-facebook"></i></a>
           </li>
+          {{ end }}
+          {{ if  and (isset .Site.Params.social "twitter") (ne .Site.Params.social.twitter "") }}
           <li>
             <a href="{{ .Site.Params.social.twitter }}"><i class="ti-twitter-alt"></i></a>
           </li>
+          {{ end }}
+          {{ if  and (isset .Site.Params.social "github") (ne .Site.Params.social.github "") }}
           <li>
             <a href="{{ .Site.Params.social.github }}"><i class="ti-github"></i></a>
           </li>
+          {{ end }}
         </ul>
       </div>
     </div>
     <div class="col-lg-4 col-md-4">
       <div class="footer-widget">
         <!--<h4>Sitemap</h4>-->
-	<br>
-	<br>
+        <br>
+        <br>
         <div class="footer-widget-list">
           <ul>
             {{ $sitemap := .Site.Menus.sitemap }}
@@ -129,18 +137,26 @@
     </div>
     <div class="col-lg-4 col-md-4">
       <div class="footer-widget">
+        {{ if isset .Site.Params "address" }}
         <h4>Address</h4>
         {{ $address := .Site.Params.address }}
         <div class="footer-widget-list">
           <ul>
+            {{ if and (isset $address "phone") (ne $address.phone "") }}
             <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li>
+            {{ end }}
+            {{ if and (isset $address "email") (ne $address.email "") }}
             <li><a href="mailto:{{ $address.email }}"><i class="ti-email"></i>{{ $address.email }}</a></li>
+            {{ end }}
+            {{ if and (isset $address "address") (ne $address.address "") }}
             <li>
               <p><i class="ti-pin"></i>{{ $address.address }}</p>
             </li>
+            {{ end }}
           </ul>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
   </div>
