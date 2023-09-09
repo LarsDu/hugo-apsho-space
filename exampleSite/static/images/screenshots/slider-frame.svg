@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="294.093" height="607.132" viewBox="0 0 294.093 607.132"><g data-name="Group 1169"><g transform="translate(4.437)" fill="none" stroke="#000" stroke-width="4"><rect width="285.105" height="607.132" rx="38.8" stroke="none"/><rect x="2" y="2" width="281.105" height="603.132" rx="36.8"/></g><path data-name="Union 35" d="M4 223.009a4 4 0 01-4-4v-36.374a4 4 0 014-4h.552v44.375zm285.542-14.792V139.95h.552a4 4 0 014 4v60.269a4 4 0 01-4 4zM4 168.395a4 4 0 01-4-4V128.02a4 4 0 014-4h.552v44.375zm0-63.717a4 4 0 01-4-4V84.784a4 4 0 014-4h.552v23.894z"/></g></svg>
+<svg
+   xmlns="http://www.w3.org/2000/svg" 
+   width="1024"
+   height="800"
+   viewBox="0 0 1024 799.99997"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     data-name="Group 1169"
+     id="g10"
+     transform="matrix(3.1117295,0,0,0.85524728,79.095608,51.998038)">
+    <g
+       transform="matrix(1.1568468,0,0,1.538787,-25.688671,-59.942513)"
+       fill="none"
+       stroke="#000000"
+       stroke-width="4"
+       id="g6">
+      <rect
+         width="285.10501"
+         height="607.13202"
+         rx="38.799999"
+         stroke="none"
+         id="rect2"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="2"
+         width="281.10501"
+         height="603.13202"
+         rx="36.799999"
+         id="rect4" />
+    </g>
+  </g>
+</svg>
