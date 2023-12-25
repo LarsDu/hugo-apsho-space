@@ -1,0 +1,23 @@
+{{ with .Site.Data.sponsors }}
+  {{ if .enable }}
+    <section class="sponsors" id="sponsors">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6">
+            <div class="sponsors-content ml-25">
+              <h2>
+                {{ .title }}
+              </h2>
+              <p>
+                {{ .description }}
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
